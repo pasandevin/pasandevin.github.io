@@ -1,0 +1,30 @@
+<rdf:RDF
+      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+      xmlns:foaf="http://xmlns.com/foaf/0.1/"
+      xmlns:admin="http://webns.net/mvcb/">
+<foaf:PersonalProfileDocument rdf:about="">
+  <foaf:maker rdf:resource="#me"/>
+  <foaf:primaryTopic rdf:resource="#me"/>
+  <admin:generatorAgent rdf:resource="http://www.ldodds.com/foaf/foaf-a-matic"/>
+  <admin:errorReportsTo rdf:resource="mailto:leigh@ldodds.com"/>
+</foaf:PersonalProfileDocument>
+<foaf:Person rdf:ID="me">
+<foaf:name>Pasan Devin Jayawardene</foaf:name>
+<foaf:title>Mr</foaf:title>
+<foaf:givenname>Pasan</foaf:givenname>
+<foaf:family_name>Jayawardene</foaf:family_name>
+<foaf:nick>Devin</foaf:nick>
+<foaf:mbox_sha1sum>86ed1b420f509ce5528da3ac2a346dc4b72f5047</foaf:mbox_sha1sum>
+<foaf:homepage rdf:resource="https://pasandevingithub.io/"/>
+<foaf:phone rdf:resource="tel:0766708259"/>
+<foaf:schoolHomepage rdf:resource="https://www.kln.ac.lk/"/>
+<foaf:knows>
+<foaf:Person>
+<foaf:name>Krishan</foaf:name>
+<foaf:mbox_sha1sum>91da124a28ea620d5329e91e49fb1d6c1d2834c0</foaf:mbox_sha1sum></foaf:Person></foaf:knows>
+<foaf:knows>
+<foaf:Person>
+<foaf:name>Bhagya</foaf:name>
+<foaf:mbox_sha1sum>b18733ab5c7545d4a5e3d723794653d7a690c105</foaf:mbox_sha1sum></foaf:Person></foaf:knows></foaf:Person>
+</rdf:RDF>
